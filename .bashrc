@@ -119,6 +119,8 @@ fi
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
+export VISUAL=vi
+export EDITOR="$VISUAL"
 set editing-mode vi
 
 ####
