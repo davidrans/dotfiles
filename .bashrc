@@ -115,3 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+
+set editing-mode vi
