@@ -22,3 +22,8 @@ nnoremap k gk
 " alternatives to escape key
 inoremap jk <Esc>
 inoremap kj <Esc>
+
+" Live dangerously
+set nowritebackup
+set nobackup
+set noswapfile
