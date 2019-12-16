@@ -27,3 +27,9 @@ inoremap kj <Esc>
 set nowritebackup
 set nobackup
 set noswapfile
+
+" ignore irrelevant files when searching
+set wildignore+=*.log
+set wildignore+=**/.git/**
+set wildignore+=**/node_modules/**
+set wildignore+=**/vendor/**
