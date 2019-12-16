@@ -120,3 +120,24 @@ bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
 set editing-mode vi
+
+####
+# Bash Prompt
+####
+RED="\[\e[31m\]"
+GRE="\[\e[32m\]"
+YEL="\[\e[33m\]"
+BLU="\[\e[34m\]"
+PUR="\[\e[35m\]"
+CYA="\[\e[36m\]"
+WHI="\[\e[37m\]"
+NUL="\[\e[0m\]"
+
+# Show non-zero exit-code as a red "E:{code}"
+EXIT="FOO=\$?; [ ! \$FOO = 0 ] && echo -ne \"${RED}E:\$FOO${NUL}\""
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWUPSTREAM="auto"
+export GIT_PS1_SHOWCOLORHINTS=1
+export PS1="${GRE}\u ${WHI}\t${YEL}\$(__git_ps1 \" (%s)\") ${BLU}\h ${PUR}\w${NUL} \`$EXIT\`\n▶  "
+export PS1="\[\033[44m\]\[\033[1;37m\] DEV \[\033[m\] $PS1"
