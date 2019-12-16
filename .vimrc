@@ -15,6 +15,9 @@ filetype indent on  " load filetype-specific indent files
 set wildmenu        " visual autocomplete for command menu
 set showmatch       " highlight matching [{()}]
 
+set gdefault        " assume :s uses /g
+set ignorecase      " ignore case in search patterns
+set smartcase       " searches are case-sensitive if caps used
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
 
