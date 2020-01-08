@@ -27,6 +27,8 @@ nnoremap k gk
 " alternatives to escape key
 inoremap jk <Esc>
 inoremap kj <Esc>
+" Allows w!! to write the file using sudo
+cmap w!! w !sudo tee >/dev/null %
 
 " Live dangerously
 set nowritebackup
