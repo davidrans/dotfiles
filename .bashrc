@@ -152,3 +152,5 @@ export FZF_DEFAULT_COMMAND='
 # Allow globally install packages without sudo
 export PATH="~/.npm-packages/bin:$PATH"
 export N_PREFIX="~/.n"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

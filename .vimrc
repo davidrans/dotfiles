@@ -40,3 +40,7 @@ set wildignore+=*.log
 set wildignore+=**/.git/**
 set wildignore+=**/node_modules/**
 set wildignore+=**/vendor/**
+
+" Use FZF plugin
+set rtp+=~/.fzf
+nnoremap <C-a> :FZF<CR>
