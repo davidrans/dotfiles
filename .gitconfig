@@ -2,3 +2,5 @@
 [user]
    name = David Rans
    email = dave.g.rans@gmail.com
+[commit]
+   verbose = true
