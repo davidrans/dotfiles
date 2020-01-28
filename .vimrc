@@ -11,7 +11,8 @@ set autoindent
 set smartindent
 
 set number          " show line numbers
-filetype indent on  " load filetype-specific indent files
+filetype plugin indent on  " load filetype-specific indent files
+
 set wildmenu        " visual autocomplete for command menu
 set showmatch       " highlight matching [{()}]
 
