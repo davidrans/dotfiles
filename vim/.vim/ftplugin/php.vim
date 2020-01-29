@@ -1,3 +1,3 @@
 let g:ale_linters = {
-\   'php': ['php'],
+\   'php': ['php', 'phpcs'],
 \}
