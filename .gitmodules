@@ -22,3 +22,6 @@
 [submodule "vim/.vim/pack/plugins/start/file-line"]
 	path = vim/.vim/pack/plugins/start/file-line
 	url = git@github.com:bogado/file-line.git
+[submodule "vim/.vim/pack/plugins/start/vim-airline-themes"]
+	path = vim/.vim/pack/plugins/start/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
