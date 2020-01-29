@@ -31,6 +31,9 @@ inoremap kj <Esc>
 " Allows w!! to write the file using sudo
 cmap w!! w !sudo tee >/dev/null %
 
+"pman - php man pages.
+set keywordprg=pman
+
 " Live dangerously
 set nowritebackup
 set nobackup
