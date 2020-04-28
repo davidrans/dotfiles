@@ -25,3 +25,6 @@
 [submodule "vim/.vim/pack/plugins/start/vim-airline-themes"]
 	path = vim/.vim/pack/plugins/start/vim-airline-themes
 	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "vim/.vim/pack/plugins/start/gruvbox"]
+	path = vim/.vim/pack/plugins/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
