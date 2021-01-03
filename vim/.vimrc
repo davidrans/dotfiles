@@ -1,7 +1,7 @@
 " Solarized theme
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme gruvbox
 
 set tabstop=3       " number of visual spaces per TAB
 set softtabstop=3   " number of spaces in tab when editing
