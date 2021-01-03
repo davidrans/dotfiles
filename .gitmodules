@@ -28,3 +28,6 @@
 [submodule "vim/.vim/pack/plugins/start/gruvbox"]
 	path = vim/.vim/pack/plugins/start/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule "vim/.vim/pack/plugins/start/vdebug"]
+	path = vim/.vim/pack/plugins/start/vdebug
+	url = git@github.com:vim-vdebug/vdebug.git
