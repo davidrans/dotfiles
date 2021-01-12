@@ -46,5 +46,5 @@ set wildignore+=**/node_modules/**
 set wildignore+=**/vendor/**
 
 " Use FZF plugin
-set rtp+=~/.fzf
-nnoremap <C-a> :FZF<CR>
+nnoremap <C-a> :Files<CR>
+nnoremap <C-g> :Rg<CR>
