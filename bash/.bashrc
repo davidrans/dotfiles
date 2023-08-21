@@ -154,3 +154,5 @@ export PATH="~/.npm-packages/bin:$PATH"
 export N_PREFIX="~/.n"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export PATH="$HOME/dasht/bin:$PATH"

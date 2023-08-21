@@ -31,7 +31,8 @@ inoremap kj <Esc>
 cmap w!! w !sudo tee >/dev/null %
 
 "pman - php man pages.
-set keywordprg=pman
+command! -nargs=1 DashtCursor :call Dasht(<q-args>)
+set keywordprg=:DashtCursor
 
 " Live dangerously
 set nowritebackup

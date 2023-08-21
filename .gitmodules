@@ -37,3 +37,6 @@
 [submodule "vim/.vim/pack/plugins/start/fzf.vim"]
 	path = vim/.vim/pack/plugins/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim/.vim/pack/plugins/start/vim-dasht"]
+	path = vim/.vim/pack/plugins/start/vim-dasht
+	url = git@github.com:sunaku/vim-dasht.git
