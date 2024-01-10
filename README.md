@@ -9,6 +9,7 @@ rm ~/.bashrc
 stow bash
 stow vim
 stow tmux
+stow --no-folding neovim
 ```
 ## vim
 ### Add a new plugin
