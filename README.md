@@ -9,10 +9,11 @@ rm ~/.bashrc
 stow bash
 stow tmux
 stow rg
-stow --no-folding neovim
+mkdir -p ~/.local/share/nvim/site/pack/plugins/start
+stow neovim
 ```
-## vim
+## neovim
 ### Add a new plugin
 ```
-git submodule add https://github.com/leafgarland/typescript-vim.git vim/.vim/pack/plugins/start/typescript-vim
+git submodule add https://github.com/github/copilot.vim.git ~/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/copilot.vim
 ```
