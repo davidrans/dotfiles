@@ -7,8 +7,8 @@ sudo apt install stow
 cd dotfiles
 rm ~/.bashrc
 stow bash
-stow vim
 stow tmux
+stow rg
 stow --no-folding neovim
 ```
 ## vim
