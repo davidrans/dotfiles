@@ -100,6 +100,7 @@ let g:ale_fix_on_save = 1
 "
 " FZF
 "
+set rtp+=~/.fzf
 nnoremap <C-a> :Files<CR>
 nnoremap <C-g> :Rg<CR>
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
