@@ -2,6 +2,14 @@ syntax enable
 set background=dark
 colorscheme gruvbox
 
+" CoC floating window highlight
+" hi CocFloating guifg=#fbf1c7 guibg=#504945
+" hi CocInfoFloat guifg=#fbf1c7 guibg=#504945
+" hi CocFloating guifg=#fbf1c7 guibg=#504945
+" hi CocWarningFloat guifg=#fbf1c7 guibg=#504945
+" hi CocErrorFloat guifg=#fbf1c7 guibg=#504945
+" hi CocHintFloat guifg=#fbf1c7 guibg=#504945
+
 set tabstop=3       " number of visual spaces per TAB
 set softtabstop=3   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
@@ -48,3 +56,7 @@ set wildignore+=**/vendor/**
 " Use FZF plugin
 nnoremap <C-a> :Files<CR>
 nnoremap <C-g> :Rg<CR>
+
+" let g:coc_node_path="/usr/bin/node"
+
+let g:ale_fix_on_save = 1
