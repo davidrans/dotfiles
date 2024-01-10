@@ -158,4 +158,7 @@ export N_PREFIX="~/.n"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+
+export RIPGREP_CONFIG_PATH=~/.rgrc
+
 export PATH="$HOME/dasht/bin:$PATH"
