@@ -52,3 +52,6 @@
 [submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-commentary"]
 	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive"]
+	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
