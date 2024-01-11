@@ -55,3 +55,6 @@
 [submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive"]
 	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fetch"]
+	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fetch
+	url = https://github.com/wsdjeg/vim-fetch.git
