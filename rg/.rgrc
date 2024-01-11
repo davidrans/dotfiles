@@ -12,3 +12,6 @@ phtml:*.phtml
 --colors=line:style:bold
 
 --smart-case
+
+--no-heading
+--column
