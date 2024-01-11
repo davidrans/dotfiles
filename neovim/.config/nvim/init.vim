@@ -196,3 +196,5 @@ END
 
 command! -nargs=1 DashtCursor :call Dasht(<q-args>)
 set keywordprg=:DashtCursor
+
+lua require('init')
