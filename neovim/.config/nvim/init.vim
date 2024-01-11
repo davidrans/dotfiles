@@ -28,7 +28,7 @@ inoremap kj <Esc>
 " Allows w!! to write the file using sudo
 cmap w!! w !sudo tee >/dev/null %
 
-nnoremap O :ALEGoToDefinition<CR>
+" nnoremap O :ALEGoToDefinition<CR>
 
 " Live dangerously
 set nowritebackup
@@ -65,37 +65,37 @@ colorscheme gruvbox-material
 "
 " ALE
 "
-let g:ale_linters_ignore = {
-\   'javascript': ['jshint'],
-\   'javascriptreact': ['jshint'],
-\   'typescript': ['jshint'],
-\   'typescriptreact': ['jshint'],
-\}
+" let g:ale_linters_ignore = {
+" \   'javascript': ['jshint'],
+" \   'javascriptreact': ['jshint'],
+" \   'typescript': ['jshint'],
+" \   'typescriptreact': ['jshint'],
+" \}
 
-let g:ale_linters = {
-\   'php': ['php', 'phpcs', 'psalm'],
-\}
+" let g:ale_linters = {
+" \   'php': ['php', 'phpcs', 'psalm'],
+" \}
 
-let g:psalm_langserver_options = "--threads=2"
+" let g:psalm_langserver_options = "--threads=2"
 
-let g:ale_fixers = {
-\   'php': ['phpcbf'],
-\   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['eslint'],
-\   'javascriptreact': ['eslint'],
-\   'typescript': ['eslint'],
-\   'typescriptreact': ['eslint'],
-\   'css': ['prettier'],
-\   'json': ['prettier'],
-\}
+" let g:ale_fixers = {
+" \   'php': ['phpcbf'],
+" \   '*': ['remove_trailing_lines', 'trim_whitespace'],
+" \   'javascript': ['eslint'],
+" \   'javascriptreact': ['eslint'],
+" \   'typescript': ['eslint'],
+" \   'typescriptreact': ['eslint'],
+" \   'css': ['prettier'],
+" \   'json': ['prettier'],
+" \}
 
-" If I don't do this, phpcbf fails on any file in the exclude-pattern :/
-let g:ale_php_phpcbf_executable = $HOME.'/phpcbf-helper.sh'
-" in order to get the alternate executable working you have to declare it as
-" use global, even though it's not 'global' :/
-let g:ale_php_phpcbf_use_global = 1
+" " If I don't do this, phpcbf fails on any file in the exclude-pattern :/
+" let g:ale_php_phpcbf_executable = $HOME.'/phpcbf-helper.sh'
+" " in order to get the alternate executable working you have to declare it as
+" " use global, even though it's not 'global' :/
+" let g:ale_php_phpcbf_use_global = 1
 
-let g:ale_fix_on_save = 1
+" let g:ale_fix_on_save = 1
 
 "
 " FZF
@@ -109,3 +109,4 @@ command! -nargs=1 DashtCursor :call Dasht(<q-args>)
 set keywordprg=:DashtCursor
 
 lua require('init')
+lua require('formatting')

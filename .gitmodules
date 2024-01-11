@@ -40,27 +40,33 @@
 [submodule "vim/.vim/pack/plugins/start/vim-dasht"]
 	path = vim/.vim/pack/plugins/start/vim-dasht
 	url = git@github.com:sunaku/vim-dasht.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/copilot.vim"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/copilot.vim
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/copilot.vim"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/copilot.vim
 	url = https://github.com/github/copilot.vim.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/gruvbox-material"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/gruvbox-material
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/gruvbox-material"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/gruvbox-material
 	url = https://github.com/sainnhe/gruvbox-material.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/fzf.vim"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/fzf.vim
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/fzf.vim"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-commentary"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-commentary
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/vim-commentary"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fetch"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/vim-fetch
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/vim-fetch"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/vim-fetch
 	url = https://github.com/wsdjeg/vim-fetch.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/nvim-lspconfig"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/nvim-lspconfig
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/nvim-lspconfig"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/nvim-lspconfig
 	url = https://github.com/neovim/nvim-lspconfig.git
-[submodule "/home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/lualine.nvim"]
-	path = /home/david/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/lualine.nvim
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/lualine.nvim"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/lualine.nvim
 	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/formatter.nvim"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/formatter.nvim
+	url = https://github.com/mhartington/formatter.nvim.git
+[submodule "neovim/.local/share/nvim/site/pack/plugins/start/nvim-lint"]
+	path = neovim/.local/share/nvim/site/pack/plugins/start/nvim-lint
+	url = https://github.com/mfussenegger/nvim-lint.git
