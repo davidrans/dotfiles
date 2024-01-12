@@ -110,3 +110,5 @@ set keywordprg=:DashtCursor
 
 lua require('init')
 lua require('formatting')
+
+set clipboard=unnamedplus
