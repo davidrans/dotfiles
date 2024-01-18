@@ -1,6 +1,7 @@
 local nvim_lsp = require('lspconfig')
 nvim_lsp.pyright.setup {}
 nvim_lsp.psalm.setup {}
+nvim_lsp.eslint.setup {}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
