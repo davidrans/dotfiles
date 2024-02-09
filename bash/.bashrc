@@ -94,6 +94,7 @@ alias l='ls -CF'
 alias gap='git add -p'
 alias vim='nvim'
 alias nvim='~/Applications/nvim.AppImage'
+alias suggest='gh copilot suggest -t shell'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
