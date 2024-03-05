@@ -262,3 +262,11 @@ vim.api.nvim_create_autocmd({ "InsertLeave", "BufWritePost" }, {
     require("lint").try_lint()
   end,
 })
+
+local null_ls = require("null-ls")
+
+null_ls.setup({
+    sources = {
+        null_ls.builtins.formatting.phpcbf,
+    },
+})

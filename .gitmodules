@@ -70,3 +70,9 @@
 [submodule "neovim/.local/share/nvim/site/pack/plugins/start/nvim-lint"]
 	path = neovim/.local/share/nvim/site/pack/plugins/start/nvim-lint
 	url = https://github.com/mfussenegger/nvim-lint.git
+[submodule "/home/drans/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/none-ls.nvim"]
+	path = /home/drans/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/none-ls.nvim
+	url = git@github.com:nvimtools/none-ls.nvim.git
+[submodule "/home/drans/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/plenary.nvim"]
+	path = /home/drans/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/plenary.nvim
+	url = git@github.com:nvim-lua/plenary.nvim.git
