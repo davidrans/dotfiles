@@ -117,54 +117,7 @@ local linters = {
     },
     requiredFiles = {"vendor/bin/phpcs"}
   },
-  -- psalm = {
-  --   command = "./vendor/bin/psalm",
-  --   sourceName = "psalm",
-  --   debounce = 100,
-  --   rootPatterns = {"composer.lock", "vendor", ".git"},
-  --   args = {"--output-format=emacs", "--no-progress"},
-  --   offsetLine = 0,
-  --   offsetColumn = 0,
-  --   sourceName = "psalm",
-  --   formatLines = 1,
-  --   formatPattern = {
-  --     "^[^ =]+ =(\\d+) =(\\d+) =(.*)\\s-\\s(.*)(\\r|\\n)*$",
-  --     {
-  --       line = 1,
-  --       column = 2,
-  --       message = 4,
-  --       security = 3
-  --     }
-  --   },
-  --   securities = {
-  --     error = "error",
-  --     warning = "warning"
-  --   },
-  --   requiredFiles = {"vendor/bin/psalm"}
-  -- }
 }
-
--- local formatters = {
---   phpcbf = {
---   	 command = "vendor/bin/phpcbf",
---   	 rootPatterns = {"composer.lock", "vendor", ".git"},
---   	 args = {"-"},
---   	 isStdout = true,
---   	 isStderr = false,
---   	 doesWriteToFile = false,
---   	 ignoreExitCode = {1},
---     requiredFiles = {"vendor/bin/phpcbf"}
---   }
--- }
-
--- nvim_lsp.diagnosticls.setup {
---   filetypes = vim.tbl_keys(filetypes),
---   init_options = {
---     -- filetypes = filetypes,
---     linters = linters,
---     formatters = {}
---   },
--- }
 
 --
 -- lualine

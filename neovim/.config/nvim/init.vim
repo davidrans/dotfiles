@@ -109,7 +109,6 @@ command! -nargs=1 DashtCursor :call Dasht(<q-args>)
 set keywordprg=:DashtCursor
 
 lua require('init')
-lua require('formatting')
 
 nnoremap y "+y
 vnoremap y "+y
