@@ -1,10 +1,8 @@
 local nvim_lsp = require('lspconfig')
 nvim_lsp.pyright.setup {}
 nvim_lsp.psalm.setup {
-   flags = {
-      -- Wait 5 seconds before sending didChange
-      debounce_text_changes = 5000,
-   }
+   -- Wait 2 seconds before sending didChange
+   cmd = { "psalm", "--language-server", "--on-change-debounce-ms=2000" },
 }
 nvim_lsp.eslint.setup {}
 
