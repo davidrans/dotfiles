@@ -150,10 +150,14 @@ export GIT_PS1_SHOWCOLORHINTS=1
 export PS1="${GRE}\u ${WHI}\t${YEL}\$(__git_ps1 \" (%s)\") ${BLU}\h ${PUR}\w${NUL} \`$EXIT\`\n▶  "
 export PS1="\[\033[44m\]\[\033[1;37m\] DEV \[\033[m\] $PS1"
 
+# export FZF_DEFAULT_COMMAND='
+#    (git ls-tree -r --name-only HEAD ||
+#     find . -path "*/\.*" -prune -o -type f -print -o -type l -print |
+#        sed s/^..//) 2> /dev/null'
 export FZF_DEFAULT_COMMAND='
-   (git ls-tree -r --name-only HEAD ||
-    find . -path "*/\.*" -prune -o -type f -print -o -type l -print |
-       sed s/^..//) 2> /dev/null'
+  (git ls-files --cached --others --exclude-standard ||
+   find . -path "*/\.*" -prune -o -type f -print -o -type l -print |
+      sed s/^..//) 2> /dev/null'
 
 # Allow globally install packages without sudo
 export PATH="~/.npm-packages/bin:$PATH"
