@@ -169,3 +169,6 @@ export N_PREFIX="~/.n"
 export RIPGREP_CONFIG_PATH=~/.rgrc
 
 export PATH="$HOME/dasht/bin:$PATH"
+
+export VISUAL="$HOME/Applications/nvim.AppImage"
+export EDITOR="$VISUAL"
