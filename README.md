@@ -15,5 +15,5 @@ stow neovim
 ## neovim
 ### Add a new plugin
 ```
-git submodule add https://github.com/github/copilot.vim.git ~/dotfiles/neovim/.local/share/nvim/site/pack/plugins/start/copilot.vim
+git submodule add https://github.com/github/copilot.vim.git ./neovim/.local/share/nvim/site/pack/plugins/start/copilot.vim
 ```
