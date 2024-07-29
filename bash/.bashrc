@@ -163,8 +163,8 @@ export FZF_DEFAULT_COMMAND='
 export PATH="~/.npm-packages/bin:$PATH"
 export N_PREFIX="~/.n"
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
 
 export RIPGREP_CONFIG_PATH=~/.rgrc
 
