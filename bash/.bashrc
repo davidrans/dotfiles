@@ -98,6 +98,7 @@ alias amend='git commit --amend'
 alias vim='nvim'
 alias nvim='~/Applications/nvim.AppImage'
 alias suggest='gh copilot suggest -t shell'
+alias tmux='tmux -2'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
