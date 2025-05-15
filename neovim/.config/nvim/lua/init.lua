@@ -4,7 +4,7 @@ nvim_lsp.psalm.setup {
    -- Wait 2 seconds before sending didChange
    cmd = { "psalm", "--language-server", "--on-change-debounce-ms=2000" },
 }
-nvim_lsp.tsserver.setup{}
+nvim_lsp.ts_ls.setup{}
 nvim_lsp.eslint.setup {}
 
 -- Global mappings.
